@@ -1,0 +1,59 @@
+"use client";
+
+import React, { useCallback, useEffect } from "react";
+import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
+import { Particles } from "../ui/particles";
+
+import { cn } from "@/functions";
+
+export interface Props extends React.HTMLAttributes<HTMLDivElement> {
+    children: React.ReactNode;
+    gradientSize?: number;
+    gradientColor?: string;
+    borderColor?: string;
+    particles?: boolean;
+    count?: number;
+}
+
+export default function MagicCard({
+    children,
+    particles = false,
+    count = 20,
+    className,
+    ...props
+}: Props) {
+    const onMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+        const { currentTarget } = e;
+        const rect = currentTarget.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        currentTarget.style.setProperty('--pos-x', `${x}px`);
+        currentTarget.style.setProperty('--pos-y', `${y}px`);
+    };
+
+    return (
+        <div
+            className={cn("card rounded-xl lg:rounded-2xl overflow-hidden", className)}
+            onMouseMove={onMouseMove}
+            style={{
+                '--pos-x': '50%',
+                '--pos-y': '50%',
+            } as React.CSSProperties}
+            {...props}
+        >
+            <div className="content relative">
+                {particles && (
+                    <Particles
+                        className="absolute inset-0 w-full h-full z-10 pointer-events-none"
+                        quantity={count}
+                        ease={80}
+                        color="#8678f9"
+                        refresh
+                    />
+                )}
+                {children}
+            </div>
+        </div>
+    );
+};

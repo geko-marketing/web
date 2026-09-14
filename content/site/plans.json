@@ -1,0 +1,100 @@
+{
+    "items": [
+        {
+            "id": "SILVER",
+            "title_es": "SILVER",
+            "title_en": "SILVER",
+            "desc_es": "Empieza con las herramientas esenciales para la creación de contenido en redes sociales",
+            "desc_en": "Start with the essential tools for social media content creation",
+            "monthlyPrice": 0,
+            "yearlyPrice": 0,
+            "badge_es": "",
+            "badge_en": "",
+            "buttonText_es": "Empezar",
+            "buttonText_en": "Get started",
+            "features_es": [
+                "Generación de contenido básico con IA",
+                "4 integraciones de redes sociales",
+                "Soporte de la comunidad",
+                "Límite de 1 proyecto",
+                "Analíticas estándar",
+                "Generación de imágenes básicas"
+            ],
+            "features_en": [
+                "Basic AI content generation",
+                "4 social media integrations",
+                "Community support",
+                "1 project limit",
+                "Standard analytics",
+                "Basic image generation"
+            ],
+            "link": "https://stripe.com/free-plan-link"
+        },
+        {
+            "id": "GOLDEN",
+            "title_es": "GOLDEN",
+            "title_en": "GOLDEN",
+            "desc_es": "Desbloquea funciones avanzadas para mejorar tu contenido y estrategia",
+            "desc_en": "Unlock advanced features to enhance your content and strategy",
+            "monthlyPrice": 10,
+            "yearlyPrice": 120,
+            "badge_es": "Más Popular",
+            "badge_en": "Most Popular",
+            "buttonText_es": "Actualizar a Pro",
+            "buttonText_en": "Upgrade to Pro",
+            "features_es": [
+                "Generación de contenido avanzada con IA",
+                "10 integraciones de redes sociales",
+                "Soporte prioritario por correo electrónico",
+                "Límite de 10 proyectos",
+                "Analíticas y perspectivas mejoradas",
+                "Generación de imágenes con modelo Pro",
+                "Herramientas de colaboración en equipo",
+                "Opciones de marca personalizadas"
+            ],
+            "features_en": [
+                "Advanced AI content generation",
+                "10 social media integrations",
+                "Priority email support",
+                "10 project limit",
+                "Enhanced analytics and insights",
+                "Pro model image generation",
+                "Team collaboration tools",
+                "Custom brand options"
+            ],
+            "link": "https://stripe.com/pro-plan-link"
+        },
+        {
+            "id": "PLATINUM",
+            "title_es": "PLATINUM",
+            "title_en": "PLATINUM",
+            "desc_es": "Soluciones a medida para grandes organizaciones y agencias",
+            "desc_en": "Tailored solutions for large organizations and agencies",
+            "monthlyPrice": 15,
+            "yearlyPrice": 180,
+            "badge_es": "Contactar con Ventas",
+            "badge_en": "Contact Sales",
+            "buttonText_es": "Actualizar a Enterprise",
+            "buttonText_en": "Upgrade to Enterprise",
+            "features_es": [
+                "Generación de contenido ilimitada con IA",
+                "Todas las integraciones de redes sociales",
+                "Gestor de cuenta dedicado",
+                "Proyectos ilimitados",
+                "Analíticas e informes personalizados",
+                "Seguridad de nivel empresarial",
+                "Actualizaciones gratuitas"
+            ],
+            "features_en": [
+                "Unlimited AI content generation",
+                "All social media integrations",
+                "Dedicated account manager",
+                "Unlimited projects",
+                "Custom analytics and reports",
+                "Enterprise-level security",
+                "Free updates"
+            ],
+            "link": "https://stripe.com/enterprise-plan-link"
+        }
+    ]
+}

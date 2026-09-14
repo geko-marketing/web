@@ -1,0 +1,46 @@
+{
+    "items": [
+        {
+            "icon": "ZapIcon",
+            "title_es": "Rápido y Eficiente",
+            "title_en": "Fast and Efficient",
+            "description_es": "Experimenta una creación de contenido rápida y fluida con nuestras herramientas de IA optimizadas.",
+            "description_en": "Experience fast and seamless content creation with our optimized AI tools."
+        },
+        {
+            "icon": "ChartSplineIcon",
+            "title_es": "Análisis Perspicaces",
+            "title_en": "Insightful Analytics",
+            "description_es": "Obtén información y análisis valiosos para mejorar tu estrategia de redes sociales.",
+            "description_en": "Get valuable information and analytics to improve your social media strategy."
+        },
+        {
+            "icon": "LifeBuoyIcon",
+            "title_es": "Soporte 24/7",
+            "title_en": "24/7 Support",
+            "description_es": "Nuestro equipo está disponible las 24 horas para ayudarte con cualquier problema o pregunta.",
+            "description_en": "Our team is available 24/7 to help you with any issues or questions."
+        },
+        {
+            "icon": "PaletteIcon",
+            "title_es": "Soluciones Personalizables",
+            "title_en": "Customizable Solutions",
+            "description_es": "Adapta las herramientas y características para que se ajusten a tus necesidades únicas de redes sociales.",
+            "description_en": "Tailor the tools and features to fit your unique social media needs."
+        },
+        {
+            "icon": "ShieldCheckIcon",
+            "title_es": "Seguro y Confiable",
+            "title_en": "Secure and Reliable",
+            "description_es": "Confía en nuestra plataforma para mantener tus datos seguros y garantizar un rendimiento constante.",
+            "description_en": "Trust our platform to keep your data safe and ensure consistent performance."
+        },
+        {
+            "icon": "WaypointsIcon",
+            "title_es": "Integración Perfecta",
+            "title_en": "Seamless Integration",
+            "description_es": "Integra fácilmente con tus plataformas y herramientas de redes sociales existentes.",
+            "description_en": "Easily integrate with your existing social media platforms and tools."
+        }
+    ]
+}
