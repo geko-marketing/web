@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /playground-geko/
+
+Host: https://geko-marketing.com
+Sitemap: https://geko-marketing.com/sitemap.xml
