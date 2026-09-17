@@ -16,8 +16,11 @@ Options -Indexes
 # Caché larga para los assets con hash en el nombre
 <IfModule mod_expires.c>
   ExpiresActive On
-  ExpiresByType text/css "access plus 1 year"
-  ExpiresByType application/javascript "access plus 1 year"
+  # Los .css/.js de este build NO llevan hash en el nombre: al editarlos
+  # el nombre sigue igual, así que una caché larga deja a los visitantes
+  # que ya conocen la web con la versión antigua. 10 min es el equilibrio.
+  ExpiresByType text/css "access plus 10 minutes"
+  ExpiresByType application/javascript "access plus 10 minutes"
   ExpiresByType image/webp "access plus 1 year"
   ExpiresByType image/png "access plus 1 year"
   ExpiresByType image/svg+xml "access plus 1 year"
