@@ -21,6 +21,10 @@ Options -Indexes
   # que ya conocen la web con la versión antigua. 10 min es el equilibrio.
   ExpiresByType text/css "access plus 10 minutes"
   ExpiresByType application/javascript "access plus 10 minutes"
+  # Apache sirve estos .js como application/x-javascript (MIME antiguo):
+  # sin estas dos líneas la regla de arriba no les aplica.
+  ExpiresByType application/x-javascript "access plus 10 minutes"
+  ExpiresByType text/javascript "access plus 10 minutes"
   ExpiresByType image/webp "access plus 1 year"
   ExpiresByType image/png "access plus 1 year"
   ExpiresByType image/svg+xml "access plus 1 year"
