@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import { posts } from '../../data/posts';
+export function getStaticPaths() {
+  return posts.map((slug) => ({ params: { slug } }));
+}
+const { slug } = Astro.params;
+---
+<Base title={`GEKO | ${slug}`}><h1>{slug}</h1></Base>
