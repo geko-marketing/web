@@ -1,0 +1,6 @@
+geko.mp3: canto de geko tokay ("to-kay"), recorte de 1 s.
+Origen: "Mating call of a male Tokay gecko (Gekko gecko).ogg", Richard Ling, Wikimedia Commons.
+Licencia: dominio público (el autor lo cede en todo el mundo).
+https://commons.wikimedia.org/wiki/File:Mating_call_of_a_male_Tokay_gecko_(Gekko_gecko).ogg
+Limpiado: Banda 550-4600 Hz, reducción de ruido (afftdn),
+silencio antes y después del canto, 128 kbps. Fuera el siseo de insectos y el zumbido grave.
