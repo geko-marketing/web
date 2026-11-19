@@ -6,6 +6,10 @@ Options -Indexes
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # www -> sin www (una sola versión de la web para Google)
+  RewriteCond %{HTTP_HOST} ^www\.geko-marketing\.com$ [NC]
+  RewriteRule ^(.*)$ https://geko-marketing.com/$1 [R=301,L]
+
   # /servicios y /blog existen además como CARPETA (con sus subpáginas).
   # Apache prefiere la carpeta, no halla índice dentro y responde 403:
   # se fuerza el .html antes de que llegue a mirar el directorio.
